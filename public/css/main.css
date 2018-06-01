@@ -1,0 +1,66 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.card {
+    width: 35em;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 0px;
+}
+
+.profile-picture {
+    margin-right: 15px;
+    width: 55px;
+}
+
+.dropdown {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.dropdown i {
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    width: 45em;
+    overflow-y: scroll;
+}
+
+.notification {
+    overflow: scroll;
+}
+
+.notification p,
+.notificationTitle p {
+    margin: 0px;
+}
+
+.notificationTitle hr {
+    margin: 4px;
+}
+
+.pageTitle {
+    margin: 0px;
+    line-height: 59px;
+}
+
+.fixedNav {
+    position: fixed;
+    clear: both;
+}

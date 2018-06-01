@@ -1,0 +1,33 @@
+{
+  "name": "rf222fu-examination-3",
+  "version": "1.0.0",
+  "description": "Examination 3 in the course 1dv023",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1dv023/rf222fu-examination-3.git"
+  },
+  "author": "Rasmus Falk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1dv023/rf222fu-examination-3/issues"
+  },
+  "homepage": "https://github.com/1dv023/rf222fu-examination-3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^3.12.0",
+    "octonode": "^0.9.1",
+    "secure-compare": "^3.0.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
